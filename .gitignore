@@ -1,0 +1,43 @@
+# api exclusions
+api/.venv/
+api/venv/
+api/ENV/
+api/__pycache__/
+api/*.py[cod]
+api/*$py.class
+api/dist/
+api/build/
+api/*.egg-info/
+api/.idea/
+api/.vscode/
+api/*.swp
+api/*.swo
+api/.env
+api/.DS_Store
+api/.ipynb_checkpoints
+api/instance/
+
+# frontend exclusions
+frontend/logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+frontend/node_modules
+frontend/dist
+frontend/dist-ssr
+frontend/*.local
+frontend/.vscode/*
+!frontend/.vscode/extensions.json
+frontend/.idea
+frontend/.DS_Store
+frontend/*.suo
+frontend/*.ntvs*
+frontend/*.njsproj
+frontend/*.sln
+frontend/*.sw?
+
+# General exclusions (if needed)
+.DS_Store 
